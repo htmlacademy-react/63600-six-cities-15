@@ -1,4 +1,4 @@
-import MainPage from '../../pages/main/main-page.tsx';
+import Main from '../../pages/main/main.tsx';
 
 type AppProps = {
   placesCount: number;
@@ -6,6 +6,6 @@ type AppProps = {
 
 export default function App({placesCount}: AppProps) : JSX.Element {
   return (
-    <MainPage placesCount={placesCount}/>
+    <Main placesCount={placesCount}/>
   );
 }
